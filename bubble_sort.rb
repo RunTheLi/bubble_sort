@@ -10,7 +10,7 @@ def bubble_sort(array)
 
     loop do
         swapped = false
-        (n-1).times do |i|
+        (n-1).times do |i| #This line initiates a loop that will run n-1 times, where n is the length of the array.
             if array[i] > array[i + 1]
                 array[i], array[i + 1] = array[i + 1], array[i]
                 swapped = true 
