@@ -23,6 +23,6 @@ def bubble_sort(array)
           array
         end 
 
-    arr = [5, 3, 8, 4, 2]
+    arr = [4,3,78,2,0,2]
     sorted_arr = bubble_sort(arr)
     puts "Sorted array: #{sorted_arr.inspect}"
